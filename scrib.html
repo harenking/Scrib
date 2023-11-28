@@ -1,0 +1,116 @@
+<!-- word-bank.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Bank</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Word Bank</h1>
+    <ul id="word-list">
+        <li>Word 1</li>
+        <li>Word 2</li>
+        <li>Word 3</li>
+        <!-- Lägg till fler ord här -->
+    </ul>
+
+    <script>
+        // Skapa en array med ord (ersätt med dina egna ord)
+        const wordBank = [
+            "Apple",
+            "Banana",
+            "Giraffe",
+            "Sunflower",
+            // Lägg till fler ord här
+        ];
+
+        // Hämta ul-elementet
+        const wordList = document.getElementById('word-list');
+
+        // Lägg till varje ord i listan
+        wordBank.forEach(word => {
+            const listItem = document.createElement('li');
+            listItem.textContent = word;
+            wordList.appendChild(listItem);
+        });
+    </script>
+</body>
+</html>
+<!-- word-bank.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Bank</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Word Bank</h1>
+    <ul id="word-list">
+        <li>Word 1</li>
+        <li>Word 2</li>
+        <li>Word 3</li>
+        <!-- Lägg till fler ord här -->
+    </ul>
+
+    <script>
+        // Skapa en array med ord (ersätt med dina egna ord)
+        const wordBank = [
+            "Apple",
+            "Banana",
+            "Giraffe",
+            "Sunflower",
+            // Lägg till fler ord här
+        ];
+
+        // Hämta ul-elementet
+        const wordList = document.getElementById('word-list');
+
+        // Lägg till varje ord i listan
+        wordBank.forEach(word => {
+            const listItem = document.createElement('li');
+            listItem.textContent = word;
+            wordList.appendChild(listItem);
+        });
+    </script>
+</body>
+</html>
